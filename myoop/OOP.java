@@ -5,12 +5,13 @@ public class OOP {
 
     String name,bloodgroup,section;
     int phone;
-    void setInformation(String name,String bloodgroup,String section,int phone){
+    
+    OOP(String name, String bloodgroup, String section, int phone){
         this.name = name;
         this.bloodgroup = bloodgroup;
         this.section = section;
         this.phone = phone;
-    }
+}
     void displayInformation(){
         System.out.println("Name\t\t: "+name);
         System.out.println("Blood Group\t: "+bloodgroup);
